@@ -53,13 +53,13 @@ export const siteConfig: SiteConfig = {
 	// 顶栏标题配置
 	navbarTitle: {
 		// 显示模式："text-icon" 显示图标+文本，"logo" 仅显示Logo
-		mode: "text-icon",
+		mode: "text",
 		// 顶栏标题文本
 		text: "Tamako's cafe",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.webp
-		icon: "assets/home/egg.webp",
+		icon: "assets/home/home.webp",
 		// 网站Logo图片路径
-		logo: "assets/home/egg.webp",
+		logo: "assets/home/default-logo.webp",
 	},
 
 	// 页面自动缩放配置
@@ -272,31 +272,31 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接，支持多级菜单
-		// {
-		// 	name: "Links",
-		// 	url: "/links/",
-		// 	icon: "material-symbols:link",
-		// 	children: [
-		// 		{
-		// 			name: "GitHub",
-		// 			url: "https://github.com/LyraVoid/Mizuki",
-		// 			external: true,
-		// 			icon: "fa7-brands:github",
-		// 		},
-		// 		{
-		// 			name: "Bilibili",
-		// 			url: "https://space.bilibili.com/701864046",
-		// 			external: true,
-		// 			icon: "fa7-brands:bilibili",
-		// 		},
-		// 		{
-		// 			name: "Gitee",
-		// 			url: "https://gitee.com/matsuzakayuki/Mizuki",
-		// 			external: true,
-		// 			icon: "mdi:git",
-		// 		},
-		// 	],
-		// },
+		{
+			name: "Links",
+			url: "/links/",
+			icon: "material-symbols:link",
+			children: [
+				{
+					name: "GitHub",
+					url: "https://github.com/LyraVoid/Mizuki",
+					external: true,
+					icon: "fa7-brands:github",
+				},
+				{
+					name: "Bilibili",
+					url: "https://space.bilibili.com/701864046",
+					external: true,
+					icon: "fa7-brands:bilibili",
+				},
+				{
+					name: "Gitee",
+					url: "https://gitee.com/matsuzakayuki/Mizuki",
+					external: true,
+					icon: "mdi:git",
+				},
+			],
+		},
 		{
 			name: "My",
 			url: "/content/",
@@ -389,18 +389,8 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Discord",
 			icon: "fa7-brands:discord",
-			url: "https://wss.moe/tamako",
+			url: "https://discord.gg/WpCNXQf4nj",
 		},
-		{
-			name: "YouTube",
-			icon: "fa7-brands:youtube",
-			url: "https://www.youtube.com/@Tmk_Srsk"
-		},
-		{
-			name: "Email",
-			icon: "mdi:email",
-			url: "https://wss.moe/m64/c2hhbnhpYTA3MTlAZ21haWwuY29t"
-		}
 	],
 };
 
