@@ -1,0 +1,8 @@
+name = "blog"
+workers_dev = true
+compatibility_date = "2025-05-05"
+compatibility_flags = ["nodejs_compat"]
+
+routes = [
+  { pattern = "tamakosan.top", custom_domain = true }
+]
