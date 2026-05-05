@@ -6,3 +6,6 @@ compatibility_flags = ["nodejs_compat"]
 routes = [
   { pattern = "tamakosan.top", custom_domain = true }
 ]
+
+[assets]
+directory = "./dist"
