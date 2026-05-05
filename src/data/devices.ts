@@ -22,7 +22,7 @@ export const devicesData: DeviceCategory = {
 			image: "/images/device/Google-Pixel-31.webp",
 			specs: "White / 4GB + 128GB",
 			description:
-				"Snapdragon 845, 12.2 MP rear camera, 8 MP Front camera6, 3 in (160 mm) QHD+ OLED at 523 ppi, 2960*1440 (37:18) pixel resolution.",
+				"Snapdragon 845, 12.2 MP rear camera, 8 MP front camera, 6.3 in (160 mm) QHD+ OLED at 523 ppi, 2960*1440 (37:18) pixel resolution.",
 			link: "https://en.wikipedia.org/wiki/Pixel_3",
 		},
 	],
@@ -30,7 +30,7 @@ export const devicesData: DeviceCategory = {
 		{
 			name: "SHARP AQUOS Zero 2",
 			image: "/images/device/SHARP-AQUOS-Zero-2.webp",
-			specs: "White / 8GB` + 256GB",
+			specs: "White / 8GB + 256GB",
 			description:
 				"Snapdragon 855 Plus, 6.4 inches Display, 2340 x 1080 pixels resolution, 120Hz refresh rate, 12.2 MP rear camera, 8 MP front camera.",
 			link: "https://en.wikipedia.org/wiki/Sharp_AQUOS_Zero_2",

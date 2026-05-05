@@ -79,7 +79,7 @@ export const timelineData: TimelineItem[] = [
 		type: "achievement",
 		startDate: "2024-01-15",
 		endDate: "2024-05-30",
-		organization: "Mooc Website",
+		organization: "MOOC Website",
 		skills: ["HTML", "CSS", "JavaScript", "Node.js", "Express"],
 		achievements: [
 			"Received course completion certificate",

@@ -25,7 +25,7 @@ const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
 	title: "Tamako's cafe",
-	subtitle: "A warm placce for you to stay.",
+	subtitle: "A warm place for you to stay.",
 	siteURL: "https://tamakosan.top/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2026-05-03", // 站点开始运行日期，用于站点统计组件计算运行天数
 
@@ -394,13 +394,13 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "YouTube",
 			icon: "fa7-brands:youtube",
-			url: "https://www.youtube.com/@Tmk_Srsk"
+			url: "https://www.youtube.com/@Tmk_Srsk",
 		},
 		{
 			name: "Email",
 			icon: "mdi:email",
-			url: "https://wss.moe/m64/c2hhbnhpYTA3MTlAZ21haWwuY29t"
-		}
+			url: "https://wss.moe/m64/c2hhbnhpYTA3MTlAZ21haWwuY29t",
+		},
 	],
 };
 
@@ -475,7 +475,8 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "欢迎光临 Tamako's cafe! 希望这里会成为一个温暖的避风港，能够温暖每一个寒冷的心房。", // 公告内容
+	content:
+		"欢迎光临 Tamako's cafe! 希望这里会成为一个温暖的避风港，能够温暖每一个寒冷的心房。", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
